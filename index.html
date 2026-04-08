@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+// For Loop Tasks
+// Task 1: Print numbers from 1 to 10 using a for loop.
+for( let i=1;i<=10;i++){
+    console.log("Printing numbers from 1 to 10: " + i);
+}
+
+// Task 2: Print the even numbers from 1 to 20 using a for loop.
+for(let i=1;i<=20;i++){
+    if(i%2==0)
+    console.log("Even number: " + i)
+}
+
+    // Task 3: Write a program to display the multiplication table of 5
+    for(let i=1;i<=20;i++){
+        console.log("Multiplication table of 5: " + 5*i )
+    }
+
+    // Task 4: Calculate the sum of numbers from 1 to 50.
+
+    let sum=0;
+    for(let i=1;i<=50;i++){
+        sum=sum+i;   
+    }
+     console.log("Sum =", sum)
+
+
+    // Task 5: Print numbers in reverse order (10 to 1).
+    for(let i=10;i>=1;i--){
+        console.log("Printing numbers in reverse order: " + i);
+    }
+
+
+    // While Loop Tasks
+    // Task 1: Print numbers from 1 to 10 using a while loop.
+    let i=1;
+    while(i<=10){
+        console.log("Printing numbers from 1 to 10: " + i)
+        i++;
+    }
+
+    // Task 2: Print all odd numbers from 1 to 20.
+    i=1;
+    while(i<=20){
+        if(i%2==1)
+        console.log("Odd number: " + i)
+    i++;
+    }
+
+    // Task 3: Calculate the sum of numbers from 1 to 100.
+    i=1;
+    let total=0;
+    while(i<=100){
+        total+=i;   
+        i++; 
+    }
+    console.log("Sum: " + total);
+
+    // Task 4: Print numbers in reverse order (10 to 1)
+    i=10;
+    while(i>=1){
+        console.log("Printing numbers in reverse order: " + i);
+        i--;
+    }
+
+    // Task 5: Create a password checker that keeps asking the user until they enter the correct password (admin123)
+
+let password="admin123";
+    let userpassword = "";
+    while (password!==userpassword) {
+         userpassword= prompt("Enter your password ");
+        if(userpassword!==password){
+            alert("Please Enter a valid password, TRY AGAIN!")
+        }
+    }
+    alert("GREAT YOU CRACK IT!");
+
+
+    
+
+
+</script>
+
+</html>
