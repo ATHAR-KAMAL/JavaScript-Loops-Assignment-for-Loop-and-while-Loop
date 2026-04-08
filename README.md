@@ -12,7 +12,5 @@ Print all odd numbers from 1 to 20
 Calculate the sum of numbers from 1 to 100
 Print numbers in reverse order (10 to 1)
 Create a password checker that keeps asking the user until they enter the correct password (admin123)
-Feedback
 
-No feedback provided
 
